@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package format="3">
+  <!-- Package Name -->
+  <name>simple_autonomous_robot</name>
+
+  <!-- Versioning -->
+  <version>0.1.0</version>
+
+  <!-- Description of the Package -->
+  <description>
+    A simple autonomous robot project with LIDAR-based obstacle avoidance, 
+    developed for simulation and basic navigation in ROS 2.
+  </description>
+
+  <!-- Maintainer Information -->
+  <maintainer email="riyanshshah@ucmerced.edu">Riyansh Shah </maintainer>
+
+  <!-- License -->
+  <license>Apache License 2.0</license>
+
+  <!-- Dependencies (Core) -->
+  <buildtool_depend>ament_cmake</buildtool_depend>  <!-- Build system -->
+  <exec_depend>rclpy</exec_depend>                  <!-- Python client library -->
+  <exec_depend>geometry_msgs</exec_depend>          <!-- For cmd_vel messages -->
+  <exec_depend>sensor_msgs</exec_depend>            <!-- For LIDAR data -->
+  <exec_depend>std_msgs</exec_depend>               <!-- Standard message types -->
+  <exec_depend>launch</exec_depend>                 <!-- Launch system -->
+  <exec_depend>launch_ros</exec_depend>             <!-- ROS 2 node launch system -->
+
+  <!-- Development Tools -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>pytest</test_depend>
+
+  <!-- Export Package Information -->
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

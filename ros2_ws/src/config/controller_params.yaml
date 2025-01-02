@@ -1,0 +1,9 @@
+/**:
+  robot_controller:
+    ros__parameters:
+      linear_speed: 0.3                 # Forward speed (meters/sec)
+      angular_speed: 0.7                # Turn speed (radians/sec)
+      obstacle_distance_threshold: 1.0  # Obstacle detection threshold (meters)
+      recovery_behavior: true           # Enable recovery actions
+      stop_distance: 0.5                # Distance at which the robot stops (meters)
+      free_path_distance: 2.0           # Minimum free path distance to proceed (meters)

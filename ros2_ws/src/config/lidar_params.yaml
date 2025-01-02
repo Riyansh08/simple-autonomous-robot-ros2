@@ -1,0 +1,10 @@
+/**:
+  lidar_sensor:
+    ros__parameters:
+      range_min: 0.1                    # Minimum detection range (meters)
+      range_max: 10.0                   # Maximum detection range (meters)
+      angle_min: -1.57                  # Minimum angle (-90 degrees)
+      angle_max: 1.57                   # Maximum angle (90 degrees)
+      angle_increment: 0.01             # Angle increment per reading (radians)
+      noise_level: 0.05                 # Simulated noise level
+      recalibration_interval: 10        # Recalibration time interval (seconds)
